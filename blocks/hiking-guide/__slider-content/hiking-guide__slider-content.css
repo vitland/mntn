@@ -1,0 +1,12 @@
+.hiking-guide__slider-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  list-style-type: none;
+  color: #fff;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  font-weight: 500;
+}

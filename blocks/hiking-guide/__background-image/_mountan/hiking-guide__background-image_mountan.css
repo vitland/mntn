@@ -1,0 +1,8 @@
+.hiking-guide__background-image_mountan {
+  width: 1920px;
+  height: 1422px;
+  left: 0px;
+  top: 464px;
+  background-image: url(../../../../images/MG.png);
+  z-index: -2;
+}

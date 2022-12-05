@@ -1,0 +1,33 @@
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link/header__item.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/login/login.css);
+@import url(../blocks/login/__text/login__text.css);
+@import url(../blocks/login/__icon/login__icon.css);
+
+
+@import url(../blocks/hiking-guide/hiking-guide.css);
+@import url(../blocks/hiking-guide/__background-image/hiking-guide__background-image.css);
+@import url(../blocks/hiking-guide/__background-image/_clouds/hiking-guide__background-image_clouds.css);
+@import url(../blocks/hiking-guide/__background-image/_man/hiking-guide__background-image_man.css);
+@import url(../blocks/hiking-guide/__background-image/_top-gradient/hiking-guide__background-image_top-gradient.css);
+@import url(../blocks/hiking-guide/__background-image/_low-gradient/hiking-guide__background-image_low-gradient.css);
+@import url(../blocks/hiking-guide/__background-image/_mountan/hiking-guide__background-image_mountan.css);
+@import url(../blocks/hiking-guide/__section-text/hiking-guide__section-text.css);
+@import url(../blocks/hiking-guide/__heading-container/hiking-guide__heading-container.css);
+@import url(../blocks/hiking-guide/__heading/hiking-guide__heading.css);
+@import url(../blocks/hiking-guide/__heading-decoration/hiking-guide__heading-decoration.css);
+@import url(../blocks/hiking-guide/__sub-heading/hiking-guide__sub-heading.css);
+@import url(../blocks/hiking-guide/__more-info/hiking-guide__more-info.css);
+@import url(../blocks/hiking-guide/__slider/hiking-guide__slider.css);
+@import url(../blocks/hiking-guide/__slider-decoration/hiking-guide__slider-decoration.css);
+@import url(../blocks/hiking-guide/__slider-decoration-accent/hiking-guide__slider-decoration-accent.css);
+@import url(../blocks/hiking-guide/__slider-content/hiking-guide__slider-content.css);
+
+@import url(../blocks/social-links/social-links.css);
+@import url(../blocks/social-links/__text/social-links__text.css);

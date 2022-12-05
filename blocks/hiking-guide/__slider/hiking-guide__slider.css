@@ -1,0 +1,7 @@
+.hiking-guide__slider {
+  position: relative;
+  margin: 200px 0 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}

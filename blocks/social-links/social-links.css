@@ -1,0 +1,10 @@
+.social-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 26px;
+  align-items: center;
+  height: 173px;
+  width: 30px;
+  margin: 200px 0 0;
+}

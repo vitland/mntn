@@ -1,0 +1,9 @@
+.hiking-guide__slider-decoration-accent {
+  position: absolute;
+  width: 3px;
+  height: 60px;
+  right: 0;
+  top: 0;
+  background: #ffffff;
+  opacity: 1;
+}

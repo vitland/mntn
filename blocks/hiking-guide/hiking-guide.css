@@ -1,0 +1,7 @@
+.hiking-guide {
+  max-width: 1760px;
+  min-width: 1300px;
+  margin: 0 auto ;
+  display: flex;
+  justify-content: space-between;
+}

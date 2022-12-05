@@ -1,0 +1,8 @@
+.hiking-guide__heading-container {
+  box-sizing: border-box;
+  margin:  0 0 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+}
