@@ -1,23 +1,33 @@
 @import url(../vendor/normalize.css);
+/* page */
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__get-started/page__get-started.css);
+@import url(../blocks/page/__hiking-essentials/page__hiking-essentials.css);
+@import url(../blocks/page/__where-you-go/page__where-you-go.css);
+@import url(../blocks/page/__footer/page__footer.css);
+@import url(../blocks/page/__background-image/page__background-image.css);
+@import url(../blocks/page/__background-image/_clouds/page__background-image_clouds.css);
+@import url(../blocks/page/__background-image/_low-gradient/page__background-image_low-gradient.css);
+@import url(../blocks/page/__background-image/_top-gradient/page__background-image_top-gradient.css);
+@import url(../blocks/page/__background-image/_man/page__background-image_man.css);
+@import url(../blocks/page/__background-image/_mountan/page__background-image_mountan.css);
 
+/* social links */
+@import url(../blocks/social-links/social-links.css);
+@import url(../blocks/social-links/__text/social-links__text.css);
+
+/* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/__link/header__item.css);
-@import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
+@import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/login/login.css);
 @import url(../blocks/login/__text/login__text.css);
 @import url(../blocks/login/__icon/login__icon.css);
 
-
+/* hiking guide */
 @import url(../blocks/hiking-guide/hiking-guide.css);
-@import url(../blocks/hiking-guide/__background-image/hiking-guide__background-image.css);
-@import url(../blocks/hiking-guide/__background-image/_clouds/hiking-guide__background-image_clouds.css);
-@import url(../blocks/hiking-guide/__background-image/_man/hiking-guide__background-image_man.css);
-@import url(../blocks/hiking-guide/__background-image/_top-gradient/hiking-guide__background-image_top-gradient.css);
-@import url(../blocks/hiking-guide/__background-image/_low-gradient/hiking-guide__background-image_low-gradient.css);
-@import url(../blocks/hiking-guide/__background-image/_mountan/hiking-guide__background-image_mountan.css);
 @import url(../blocks/hiking-guide/__section-text/hiking-guide__section-text.css);
 @import url(../blocks/hiking-guide/__heading-container/hiking-guide__heading-container.css);
 @import url(../blocks/hiking-guide/__heading/hiking-guide__heading.css);
@@ -28,6 +38,38 @@
 @import url(../blocks/hiking-guide/__slider-decoration/hiking-guide__slider-decoration.css);
 @import url(../blocks/hiking-guide/__slider-decoration-accent/hiking-guide__slider-decoration-accent.css);
 @import url(../blocks/hiking-guide/__slider-content/hiking-guide__slider-content.css);
+@import url(../blocks/hiking-guide/__social-links/hiking-guide__social-links.css);
 
-@import url(../blocks/social-links/social-links.css);
-@import url(../blocks/social-links/__text/social-links__text.css);
+/* get started */
+@import url(../blocks/get-started/get-started.css);
+
+
+/* hiking essentials */
+@import url(../blocks/hiking-essentials/hiking-essentials.css);
+
+/* where-you-go */
+@import url(../blocks/where-you-go/where-you-go.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__subtitle/footer__subtitle.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__copiright/footer__copyright.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__author/footer__author.css);
+
+
+/* text-container */
+@import url(../blocks/text-container/text-container.css);
+@import url(../blocks/text-container/__number/text-container__number.css);
+@import url(../blocks/text-container/__title-container/text-container__title-container.css);
+@import url(../blocks/text-container/__title-decoration/text-container__title-decoration.css);
+@import url(../blocks/text-container/__title/text-container__title.css);
+@import url(../blocks/text-container/text-container.css);
+@import url(../blocks/text-container/__subtitle/text-container__subtitle.css);
+@import url(../blocks/text-container/__text/text-container__text.css);
+@import url(../blocks/text-container/__link/text-container__link.css);
+
+/* image-container */
+@import url(../blocks/image-container/image-container.css);

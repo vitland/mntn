@@ -1,0 +1,11 @@
+.text-container__title {
+  margin: 0;
+  font-family: 'Gilroy', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fbd784;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}

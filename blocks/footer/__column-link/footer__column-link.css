@@ -1,0 +1,9 @@
+.footer__column-link {
+  font-family: "Gilroy", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: white;
+  text-decoration: none;
+}

@@ -1,7 +1,8 @@
-.hiking-guide__slider {
+.hiking-essentials{
   position: relative;
-  margin: 230px 0 0;
   display: flex;
+  max-width: 1312px;
+  gap: 264px;
   justify-content: space-between;
-  gap: 32px;
+  z-index: 6;
 }

@@ -1,0 +1,13 @@
+.text-container__number {
+  position: absolute;
+  top:-120px;
+  left: -154px;
+  margin: 0;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 240px;
+  line-height: 240px;
+  color: #ffffff;
+  opacity: 0.1;
+}

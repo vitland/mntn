@@ -1,8 +1,8 @@
-.hiking-guide__background-image_clouds {
-  width: 1920px;
+.page__background-image_clouds {
   height: 1513px;
   left: 0px;
   top: 0px;
   background-image: url(../../../../images/HG.png);
-  z-index: -3;
+  background-repeat: no-repeat;
+  z-index: 0;
 }

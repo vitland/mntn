@@ -1,8 +1,7 @@
-.hiking-guide__background-image_man {
-  width: 1920px;
+.page__background-image_man {
   height: 926px;
   left: 0px;
   top: 768px;
   background-image: url(../../../../images/VG.png);
-  z-index: -2;
+  z-index: 2;
 }

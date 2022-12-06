@@ -1,0 +1,10 @@
+.text-container__subtitle{
+  margin: 0;
+  width: 555px;
+  font-family: 'Chronicle Display', Times, serif;
+  font-style: normal;
+  font-weight: 375;
+  font-size: 64px;
+  line-height: 77px;
+  color: #ffffff;
+}

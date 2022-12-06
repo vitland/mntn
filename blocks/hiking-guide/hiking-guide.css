@@ -1,7 +1,9 @@
 .hiking-guide {
+  position: relative;
   max-width: 1760px;
   min-width: 1300px;
   margin: 0 auto ;
   display: flex;
   justify-content: space-between;
+  z-index: 6;
 }

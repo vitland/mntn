@@ -1,0 +1,6 @@
+.footer__copyright {
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

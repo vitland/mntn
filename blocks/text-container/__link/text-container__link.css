@@ -1,0 +1,8 @@
+.text-container__link{
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Gilroy', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FBD784;
+}

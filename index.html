@@ -8,75 +8,180 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="header">
-      <div class="logo logo_place_header">MNTN</div>
-      <ul class="header__menu">
-        <li>
-          <a href="#" class="header__link">Equipment</a>
-        </li>
-        <li>
-          <a href="#" class="header__link">About us</a>
-        </li>
-        <li><a href="#" class="header__link">Blog</a></li>
-      </ul>
-      <div class="login">
-        <img src="./images/cart.svg" alt="account icon" class="login__icon" />
-        <p class="login__text">Account</p>
-      </div>
-    </header>
-    <section class="hiking-guide">
+    <main class="page">
       <div
-        class="hiking-guide__background-image hiking-guide__background-image_clouds"
+        class="page__background-image page__background-image_top-gradient"
       ></div>
+      <div class="page__background-image page__background-image_clouds"></div>
+      <div class="page__background-image page__background-image_mountan"></div>
+      <div class="page__background-image page__background-image_man"></div>
       <div
-        class="hiking-guide__background-image hiking-guide__background-image_mountan"
+        class="page__background-image page__background-image_low-gradient"
       ></div>
-      <div
-        class="hiking-guide__background-image hiking-guide__background-image_man"
-      ></div>
-      <div
-        class="hiking-guide__background-image hiking-guide__background-image_top-gradient"
-      ></div>
-      <div
-        class="hiking-guide__background-image hiking-guide__background-image_low-gradient"
-      ></div>
-      <div class="social-links">
-        <p class="social-links__text">Follow us</p>
-        <a class="social-links__link" href="http://instagram.com" target="_blank"
-          ><img src="./images/insta.svg" alt="instagram icon"
-        /></a>
-        <a href="http://twitter.com" target="_blank">
-          <img
-            src="./images/twit.svg"
-            alt="twitter icon"
-            class="social-links__link"
-          />
-        </a>
-      </div>
-      <div class="hiking-guide__section-text">
-        <div class="hiking-guide__heading-container">
-          <div class="hiking-guide__heading-decoration"></div>
-          <h1 class="hiking-guide__heading">a hiking guide</h1>
-        </div>
-        <h2 class="hiking-guide__sub-heading">
-          Be prepared for the Mountains and beyond!
-        </h2>
-        <p class="hiking-guide__more-info">scroll down &darr;</p>
-      </div>
-      <div class="hiking-guide__slider">
-        <ul class="hiking-guide__slider-content">
-          <li>Start</li>
-          <li>01</li>
-          <li>02</li>
-          <li>03</li>
+      <header class="header">
+        <div class="logo header__logo">MNTN</div>
+        <ul class="header__menu">
+          <li>
+            <a href="#" class="header__link">Equipment</a>
+          </li>
+          <li>
+            <a href="#" class="header__link">About us</a>
+          </li>
+          <li><a href="#" class="header__link">Blog</a></li>
         </ul>
-        <div class="hiking-guide__slider-decoration-accent"></div>
-        <div class="hiking-guide__slider-decoration"></div>
-      </div>
-    </section>
-    <section class="get-started"></section>
-    <section class="hiking-esentials"></section>
-    <section class="where-you-go"></section>
-    <footer class="footer"></footer>
+        <div class="login">
+          <img src="./images/cart.svg" alt="account icon" class="login__icon" />
+          <p class="login__text">Account</p>
+        </div>
+      </header>
+      <section class="hiking-guide">
+        <div class="social-links hiking-guide__social-links">
+          <p class="social-links__text">Follow us</p>
+          <a
+            class="social-links__link"
+            href="http://instagram.com"
+            target="_blank"
+            ><img src="./images/insta.svg" alt="instagram icon"
+          /></a>
+          <a href="http://twitter.com" target="_blank">
+            <img
+              src="./images/twit.svg"
+              alt="twitter icon"
+              class="social-links__link"
+            />
+          </a>
+        </div>
+        <div class="hiking-guide__section-text">
+          <div class="hiking-guide__heading-container">
+            <div class="hiking-guide__heading-decoration"></div>
+            <h1 class="hiking-guide__heading">a hiking guide</h1>
+          </div>
+          <h2 class="hiking-guide__sub-heading">
+            Be prepared for the Mountains and beyond!
+          </h2>
+          <p class="hiking-guide__more-info">scroll down &darr;</p>
+        </div>
+        <div class="hiking-guide__slider">
+          <ul class="hiking-guide__slider-content">
+            <li>Start</li>
+            <li>01</li>
+            <li>02</li>
+            <li>03</li>
+          </ul>
+          <div class="hiking-guide__slider-decoration-accent"></div>
+          <div class="hiking-guide__slider-decoration"></div>
+        </div>
+      </section>
+      <section class="get-started page__get-started">
+        <div class="text-container get-started__text-container">
+          <div class="text-container__title-container">
+            <div class="text-container__title-decoration">
+              <p class="text-container__number">01</p>
+            </div>
+            <h2 class="text-container__title">GEt Started</h2>
+          </div>
+          <p class="text-container__subtitle">What level of hiker are you?</p>
+          <article>
+            <p class="text-container__text">
+              Determining what level of hiker you are can be an important tool
+              when planning future hikes. This hiking level guide will help you
+              plan hikes according to different hike ratings set by various
+              websites like All Trails and Modern Hiker. What type of hiker are
+              you – novice, moderate, advanced moderate, expert, or expert
+              backpacker?
+            </p>
+          </article>
+          <p><a href="#" class="text-container__link">read more &rarr;</a></p>
+        </div>
+        <img
+          src="./images/01.png"
+          alt="Man on a monutan trail"
+          class="image-container get-started-image-container"
+        />
+      </section>
+      <section class="hiking-essentials page__hiking-essentials">
+        <img
+          src="./images/02.png"
+          alt="Man on a cliff looking on mountains"
+          class="image-container"
+        />
+        <div class="text-container">
+          <div class="text-container__title-container">
+            <div class="text-container__title-decoration">
+              <p class="text-container__number">02</p>
+            </div>
+            <h2 class="text-container__title">Hiking Essentials</h2>
+          </div>
+          <p class="text-container__subtitle">Picking the right Hiking Gear!</p>
+          <article>
+            <p class="text-container__text">
+              Determining what level of hiker you are can be an important tool
+              when planning future hikes. This hiking level guide will help you
+              plan hikes according to different hike ratings set by various
+              websites like All Trails and Modern Hiker. What type of hiker are
+              you – novice, moderate, advanced moderate, expert, or expert
+              backpacker?
+            </p>
+          </article>
+          <p><a href="#" class="text-container__link">read more &rarr;</a></p>
+        </div>
+      </section>
+      <section class="where-you-go page__where-you-go"">
+        <div class="text-container">
+          <div class="text-container__title-container">
+            <div class="text-container__title-decoration">
+              <p class="text-container__number">03</p>
+            </div>
+            <h2 class="text-container__title">where you go is the key</h2>
+          </div>
+          <p class="text-container__subtitle">Understand Your Map & Timing</p>
+          <article>
+            <p class="text-container__text">
+              To start, print out the hiking guide and map. If it's raining,
+              throw them in a Zip-Lock bag. Read over the guide, study the map,
+              and have a good idea of what to expect. I like to know what my
+              next landmark is as I hike. For example, I'll read the guide and
+              know that say, in a mile, I make a right turn at the junction..
+            </p>
+          </article>
+          <p><a href="#" class="text-container__link">read more &rarr;</a></p>
+        </div>
+        <img
+          src="./images/03.png"
+          alt="Hand with a compass"
+          class="image-container "
+        />
+      </section>
+      <footer class="footer page__footer">
+          <div class="footer__copyright">
+            <div class="logo">MNTN</div>
+            <p class="footer__subtitle">Get out there & discover your next slope, mountain & destination!</p>
+            <p class="footer__author">Copyright 2019 MNTN, Inc. Terms & Privacy</p>
+          </div>
+          <div class="footer__blog-info">
+            <h2 class="footer__column-heading">More on The Blog</h2>
+            <nav>
+              <ul class="footer__column-links">
+                <li><a class="footer__column-link" href="#">About MNTN</a></li>
+                <li><a class="footer__column-link" href="#">Contributors & Writers</a></li>
+                <li><a class="footer__column-link" href="#">Write For Us</a></li>
+                <li><a class="footer__column-link" href="#">Contact Us</a></li>
+                <li><a class="footer__column-link" href="#">Privacy Policy</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__mntn-info">
+            <h2 class="footer__column-heading">More on MNTN</h2>
+            <nav>
+              <ul class="footer__column-links">
+                <li><a class="footer__column-link" href="#">The Team</a></li>
+                <li><a class="footer__column-link" href="#">Jobs</a></li>
+                <li><a class="footer__column-link" href="#">Press</a></li>
+              </ul>
+            </nav>
+          </div>
+        
+      </footer>
+    </main>
   </body>
 </html>
