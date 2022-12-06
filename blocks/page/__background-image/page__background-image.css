@@ -1,6 +1,6 @@
 .page__background-image {
   position: absolute;
-  width: 1903px;
   object-fit: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
 }
