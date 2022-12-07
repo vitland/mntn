@@ -1,7 +1,16 @@
 .text-container__title-container{
+  position: relative;
   box-sizing: border-box;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 32px;
 }
+
+.text-container__title-container::before {
+  content: '';
+  width: 72px;
+  height: 2px;
+  background: #FBD784;
+}
+
